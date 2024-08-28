@@ -10,7 +10,7 @@ app.get('/info', (req, res)  => {
     res.send('Essa API foi feita pelo Deco 🤠')
 })
 
-app.get('/erro', (req, res)  => {
+app.use((req, res)  => {
     res.status(404).send('Essa pagina não existe 😔')
 })
 
