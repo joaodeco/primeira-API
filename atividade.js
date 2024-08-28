@@ -11,5 +11,5 @@ app.get('/info', (req, res)  => {
 })
 
 app.listen(porta, () => {
-    console.log('Escutando em http://localhost:300 !')
+    console.log('Escutando em http://localhost:3000 !')
 })
